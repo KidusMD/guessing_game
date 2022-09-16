@@ -61,9 +61,8 @@ body {
     margin-bottom: 4rem;
 }
 
-.guess_button {
+/* .guess_button {
     background-color: #4CAF50;
-    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -71,6 +70,49 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+} */
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #d4872e;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px rgba(218, 35, 35, 0.247);
+}
+
+.win {
+    height: 10rem;
+    width: 10rem;
+    background-color: #ffd900;
+    font-size: 5rem;
+}
+
+.clicked {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #a01914;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px rgba(44, 6, 6, 0.247);
+}
+
+.button:hover {
+    background-color: #d81111
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(46, 38, 38);
+    transform: translateY(4px);
 }
 
 /* demo */
