@@ -149,5 +149,8 @@ icons.forEach(function (icon) {
         if (e.target.id === 'red') {
             body.style.backgroundColor = e.target.id;
         }
+        if (e.target.id === 'brown') {
+            body.style.backgroundColor = e.target.id;
+        }
     })
 })
