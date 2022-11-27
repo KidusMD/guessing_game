@@ -115,46 +115,39 @@ body {
   transform: translateY(4px);
 }
 
-span {
-  display: block;
+#tic-tac-toe tr:first-child td {
+  border-top: none;
 }
 
-.canvas {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+#tic-tac-toe tr:last-child td {
+  border-bottom: none;
+}
+
+#tic-tac-toe tr td:first-child {
+  border-left: none;
+}
+
+#tic-tac-toe tr td:last-child {
+  border-right: none;
+}
+
+#tic-tac-toe td.X {
+  color: #ed676b;
+}
+
+#tic-tac-toe td.O {
+  color: #23916b;
+}
+
+#scoreboard .score {
   text-align: center;
+  font-size: 30px;
 }
 
-.icon {
-  width: 25px;
-  height: 25px;
-  border: solid black 1px;
-  display: inline-block;
-  border-radius: 50%;
+#scoreboard .score#player1 {
+  color: #ed676b;
 }
 
-.h1 {
-  font-size: 20px;
-}
-
-#grey {
-  background: grey;
-}
-
-#white {
-  background: white;
-}
-#blue {
-  background: blue;
-}
-#yellow {
-  background: yellow;
-}
-#red {
-  background: red;
-}
-#brown {
-  background: brown;
+#scoreboard .score#player2 {
+  color: #23916b;
 }
